@@ -1,0 +1,24 @@
+user : 
+- name
+- email
+- address
+- phone_numbe
+
+produk : 
+- name
+- color
+- description
+- price
+- height
+- weight
+- width
+- warranty
+- category
+
+color : 
+- id
+- name 
+
+
+
+npx prisma migrate dev --name add-description-and-image-to-product
